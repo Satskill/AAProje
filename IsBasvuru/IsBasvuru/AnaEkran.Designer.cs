@@ -35,10 +35,7 @@ namespace IsBasvuru
             this.label2 = new System.Windows.Forms.Label();
             this.srktlst = new System.Windows.Forms.CheckedListBox();
             this.btnprfl = new System.Windows.Forms.Button();
-            this.btnbsvr = new System.Windows.Forms.Button();
             this.btncv = new System.Windows.Forms.Button();
-            this.btnilnvr = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // cmbktgr
@@ -100,17 +97,6 @@ namespace IsBasvuru
             this.btnprfl.UseVisualStyleBackColor = true;
             this.btnprfl.Click += new System.EventHandler(this.btnprfl_Click);
             // 
-            // btnbsvr
-            // 
-            this.btnbsvr.Location = new System.Drawing.Point(15, 291);
-            this.btnbsvr.Name = "btnbsvr";
-            this.btnbsvr.Size = new System.Drawing.Size(157, 32);
-            this.btnbsvr.TabIndex = 4;
-            this.btnbsvr.Text = "BAŞVUR";
-            this.btnbsvr.UseVisualStyleBackColor = true;
-            this.btnbsvr.Click += new System.EventHandler(this.btnbsvr_Click);
-            this.btnbsvr.MouseHover += new System.EventHandler(this.btnbsvr_MouseHover);
-            // 
             // btncv
             // 
             this.btncv.Location = new System.Drawing.Point(293, 38);
@@ -121,37 +107,11 @@ namespace IsBasvuru
             this.btncv.UseVisualStyleBackColor = true;
             this.btncv.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnilnvr
-            // 
-            this.btnilnvr.Location = new System.Drawing.Point(271, 291);
-            this.btnilnvr.Name = "btnilnvr";
-            this.btnilnvr.Size = new System.Drawing.Size(157, 32);
-            this.btnilnvr.TabIndex = 4;
-            this.btnilnvr.Text = "İLAN VER";
-            this.btnilnvr.UseVisualStyleBackColor = true;
-            this.btnilnvr.Click += new System.EventHandler(this.btnilnvr_Click);
-            this.btnilnvr.MouseHover += new System.EventHandler(this.btnilnvr_MouseHover);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(179, 301);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(76, 13);
-            this.linkLabel1.TabIndex = 5;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "DOĞRULAMA";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            this.linkLabel1.MouseHover += new System.EventHandler(this.linkLabel1_MouseHover);
-            // 
             // AnaEkran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 335);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.btnilnvr);
-            this.Controls.Add(this.btnbsvr);
             this.Controls.Add(this.btncv);
             this.Controls.Add(this.btnprfl);
             this.Controls.Add(this.srktlst);
@@ -175,9 +135,6 @@ namespace IsBasvuru
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckedListBox srktlst;
         private System.Windows.Forms.Button btnprfl;
-        private System.Windows.Forms.Button btnbsvr;
         private System.Windows.Forms.Button btncv;
-        private System.Windows.Forms.Button btnilnvr;
-        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
